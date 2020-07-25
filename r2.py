@@ -1,5 +1,6 @@
 import numpy as np, random
 from PIL import Image
+import sys
 
 dX, dY = 512, 512
 xArray = np.linspace(0.0, 1.0, dX).reshape((1, dX, 1))
